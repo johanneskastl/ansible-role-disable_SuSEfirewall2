@@ -1,0 +1,13 @@
+---
+# disable_SuSEfirewall2/tasks/main.yml
+
+- name: "Disable and stop the SuSEfirewall2 service"
+  service:
+    name: "SuSEfirewall2"
+    state: "stopped"
+    enabled: "false"
+
+- name: "uninstall the SuSEfirewall2 package"
+  package:
+    name: "SuSEfirewall2"
+    state: "absent"
