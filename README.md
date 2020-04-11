@@ -1,3 +1,5 @@
+![Ansible Lint](https://github.com/johanneskastl/ansible-role-disable_SuSEfirewall2/workflows/Ansible%20Lint/badge.svg)
+
 disable_SuSEfirewall2
 =========
 
