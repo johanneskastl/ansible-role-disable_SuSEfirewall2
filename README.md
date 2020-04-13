@@ -3,7 +3,7 @@
 disable_SuSEfirewall2
 =========
 
-Disable SuSEfirewall2
+Disable the SuSEfirewall2 service and uninstall the corresponding package.
 
 Requirements
 ------------
