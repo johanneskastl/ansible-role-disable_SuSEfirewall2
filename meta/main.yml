@@ -1,5 +1,6 @@
 galaxy_info:
   role_name: 'disable_SuSEfirewall2'
+  namespace: 'johanneskastl'
   author: 'Johannes Kastl'
   description: 'disable SuSEfirewall2'
   company: 'B1 Systems GmbH'
