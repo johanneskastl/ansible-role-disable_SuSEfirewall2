@@ -1,15 +1,15 @@
 ---
 # disable_SuSEfirewall2/tasks/main.yml
 
-- name: "Disable and stop the SuSEfirewall2 service"
+- name: 'Disable and stop the SuSEfirewall2 service'
   ansible.builtin.service:
-    name: "SuSEfirewall2"
-    state: "stopped"
-    enabled: "false"
+    name: 'SuSEfirewall2'
+    state: 'stopped'
+    enabled: 'false'
   register: disable_the_service
   failed_when: 'disable_the_service.failed and disable_the_service.msg != "Could not find the requested service SuSEfirewall2: host"'
 
-- name: "uninstall the SuSEfirewall2 package"
+- name: 'uninstall the SuSEfirewall2 package'
   ansible.builtin.package:
-    name: "SuSEfirewall2"
-    state: "absent"
+    name: 'SuSEfirewall2'
+    state: 'absent'
