@@ -9,7 +9,7 @@
   register: disable_the_service
   failed_when: 'disable_the_service.failed and disable_the_service.msg != "Could not find the requested service SuSEfirewall2: host"'
 
-- name: 'uninstall the SuSEfirewall2 package'
+- name: 'Uninstall the SuSEfirewall2 package'
   ansible.builtin.package:
     name: 'SuSEfirewall2'
     state: 'absent'
