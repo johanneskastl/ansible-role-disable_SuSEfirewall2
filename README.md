@@ -25,7 +25,7 @@ Example Playbook
 
     - hosts: servers
       roles:
-         - { role: johanneskastl.disable_SuSEfirewall2 }
+         - role: johanneskastl.disable_SuSEfirewall2
 
 License
 -------
